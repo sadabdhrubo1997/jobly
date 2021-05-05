@@ -997,30 +997,39 @@ body {
 
                     &:hover {
                         background-color: rgba(70, 64, 222, 1);
-
                         svg.fb {
-                            width: 1rem;
-
-
                             path {
                                 fill: rgb(255, 255, 255);
+                            }
+                        }
+
+                        svg.insta{
+                            path{
+                                fill: #ffffff;
+                            }
+                        }
+                        svg.twtr{
+                            path{
+                                fill: #ffffff;
+                            }
+                        }
+                        svg.linkedin{
+                            path{
+                                fill: #ffffff;
                             }
                         }
                     }
                 }
 
-
                 .fb {
                     text-decoration: none;
-
-                    svg {
+                    svg.fb {
                         width: 1rem;
                         transition: .2s;
                         -webkit-transition: .2s;
                         -moz-transition: .2s;
                         -ms-transition: .2s;
                         -o-transition: .2s;
-
                         path {
                             transition: .2s;
                             -webkit-transition: .2s;
@@ -1030,8 +1039,54 @@ body {
                             fill: rgba(70, 64, 222, 1);
                         }
                     }
-
-
+                    svg.insta {
+                        width: 2rem;
+                        transition: .2s;
+                        -webkit-transition: .2s;
+                        -moz-transition: .2s;
+                        -ms-transition: .2s;
+                        -o-transition: .2s;
+                        path {
+                            transition: .2s;
+                            -webkit-transition: .2s;
+                            -moz-transition: .2s;
+                            -ms-transition: .2s;
+                            -o-transition: .2s;
+                            fill: rgba(70, 64, 222, 1);
+                        }
+                    }
+                    svg.twtr {
+                        width: 2rem;
+                        transition: .2s;
+                        -webkit-transition: .2s;
+                        -moz-transition: .2s;
+                        -ms-transition: .2s;
+                        -o-transition: .2s;
+                        path {
+                            transition: .2s;
+                            -webkit-transition: .2s;
+                            -moz-transition: .2s;
+                            -ms-transition: .2s;
+                            -o-transition: .2s;
+                            fill: rgba(70, 64, 222, 1);
+                        }
+                    }
+                    svg.linkedin {
+                        width: 2rem;
+                        transition: .2s;
+                        -webkit-transition: .2s;
+                        -moz-transition: .2s;
+                        -ms-transition: .2s;
+                        -o-transition: .2s;
+                        path {
+                            transition: .2s;
+                            -webkit-transition: .2s;
+                            -moz-transition: .2s;
+                            -ms-transition: .2s;
+                            -o-transition: .2s;
+                            fill: rgba(70, 64, 222, 1);
+                        }
+                    }
                 }
             }
         }
@@ -1039,3 +1094,29 @@ body {
 }
 
 // footer end
+
+
+
+
+// copyright section
+#copyright{
+    margin-top: 6rem;
+    padding: 3rem 0;
+    border-top: .1rem solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    p{
+        color: rgba(22, 23, 36, 1);
+        font-family: ttcr;
+        font-size: 1.8rem;
+    }
+
+    img{
+        display: inline-flex;
+        margin: 0 1rem;
+    }
+}
+// copyright section end

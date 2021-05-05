@@ -1101,19 +1101,27 @@ body {
   background-color: #4640de;
 }
 
-#footer .wrapper .social .box a:hover svg.fb {
-  width: 1rem;
-}
-
 #footer .wrapper .social .box a:hover svg.fb path {
   fill: white;
+}
+
+#footer .wrapper .social .box a:hover svg.insta path {
+  fill: #ffffff;
+}
+
+#footer .wrapper .social .box a:hover svg.twtr path {
+  fill: #ffffff;
+}
+
+#footer .wrapper .social .box a:hover svg.linkedin path {
+  fill: #ffffff;
 }
 
 #footer .wrapper .social .box .fb {
   text-decoration: none;
 }
 
-#footer .wrapper .social .box .fb svg {
+#footer .wrapper .social .box .fb svg.fb {
   width: 1rem;
   transition: .2s;
   -webkit-transition: .2s;
@@ -1122,12 +1130,93 @@ body {
   -o-transition: .2s;
 }
 
-#footer .wrapper .social .box .fb svg path {
+#footer .wrapper .social .box .fb svg.fb path {
   transition: .2s;
   -webkit-transition: .2s;
   -moz-transition: .2s;
   -ms-transition: .2s;
   -o-transition: .2s;
   fill: #4640de;
+}
+
+#footer .wrapper .social .box .fb svg.insta {
+  width: 2rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#footer .wrapper .social .box .fb svg.insta path {
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  fill: #4640de;
+}
+
+#footer .wrapper .social .box .fb svg.twtr {
+  width: 2rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#footer .wrapper .social .box .fb svg.twtr path {
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  fill: #4640de;
+}
+
+#footer .wrapper .social .box .fb svg.linkedin {
+  width: 2rem;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+
+#footer .wrapper .social .box .fb svg.linkedin path {
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+  fill: #4640de;
+}
+
+#copyright {
+  margin-top: 6rem;
+  padding: 3rem 0;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#copyright p {
+  color: #161724;
+  font-family: ttcr;
+  font-size: 1.8rem;
+}
+
+#copyright img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 1rem;
 }
 /*# sourceMappingURL=style.css.map */
