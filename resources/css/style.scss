@@ -89,6 +89,7 @@ body {
                         background-color: rgba(44, 105, 255, 1);
                         color: #fff;
                         padding: 1.6rem 4.5rem;
+                        padding-top: 1.8rem;
                         border-radius: .8rem;
                         -webkit-border-radius: .8rem;
                         -moz-border-radius: .8rem;
@@ -523,6 +524,37 @@ body {
             text-align: center;
         }
 
+        .btnWrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+
+            a {
+                color: #fff;
+                background-color: $brandColor;
+                padding: 2.1rem 4.8rem;
+                font-size: 1.8rem;
+                font-family: $rubik;
+                font-weight: 500;
+                border-radius: .8rem;
+                -webkit-border-radius: .8rem;
+                -moz-border-radius: .8rem;
+                -ms-border-radius: .8rem;
+                -o-border-radius: .8rem;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: $brandHover;
+                }
+            }
+        }
+
         .boxWrapper {
             width: 100%;
             display: flex;
@@ -676,7 +708,7 @@ body {
                 .tag.airbnb {
                     background-color: rgba(255, 82, 82, 0.1);
 
-                    span{
+                    span {
                         background-color: rgba(255, 82, 82, 1);
                     }
                 }
@@ -684,7 +716,7 @@ body {
                 .tag.freebird {
                     background-color: rgba(252, 220, 73, 0.1);
 
-                    span{
+                    span {
                         background-color: rgba(252, 220, 73, 1);
                     }
                 }
@@ -693,7 +725,7 @@ body {
                     background-color: rgb(255, 255, 255);
                     box-shadow: 0 .4rem 80px rgba(6, 69, 192, 0.2);
 
-                    span{
+                    span {
                         background-color: #000;
                     }
                 }
@@ -701,7 +733,7 @@ body {
                 .tag.paypal {
                     background-color: rgba(0, 102, 169, 0.1);
 
-                    span{
+                    span {
                         background-color: rgba(0, 102, 169, 1);
                     }
                 }
@@ -709,7 +741,7 @@ body {
                 .tag.nike {
                     background-color: rgba(70, 215, 248, 0.1);
 
-                    span{
+                    span {
                         background-color: rgb(70, 215, 248);
                     }
                 }
@@ -721,3 +753,289 @@ body {
 }
 
 // marketplace end
+
+
+// secondIllustration
+#secondIllustration {
+    margin-top: 20rem;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .image {
+            width: calc(96% - 74.4rem);
+
+            img {
+                width: 100%;
+                height: auto;
+                display: inline-flex;
+                margin-left: -4.8rem;
+            }
+        }
+
+        .desc {
+            margin-top: 1rem;
+            width: 74.4rem;
+
+            h2 {
+                font-family: $rubik;
+                font-weight: 500;
+                font-size: 5.5rem;
+                color: #000;
+                line-height: 1.4;
+                margin-bottom: 4.2rem;
+            }
+
+            p {
+                margin-bottom: 3rem;
+                font-family: ttcr;
+                font-weight: 400;
+                font-size: 2rem;
+                color: rgba(0, 0, 0, 0.7);
+                line-height: 1.6;
+            }
+
+            a {
+                background-color: $brandColor;
+                color: #fff;
+                font-size: 2rem;
+                text-decoration: none;
+                font-family: ttcr;
+                font-weight: 400;
+                font-size: 2rem;
+                padding: 1.7rem 3.5rem;
+                padding-top: 2rem;
+                display: inline-flex;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+                border-radius: .8rem;
+                -webkit-border-radius: .8rem;
+                -moz-border-radius: .8rem;
+                -ms-border-radius: .8rem;
+                -o-border-radius: .8rem;
+
+
+                &:hover {
+                    background-color: $brandHover;
+                }
+            }
+        }
+    }
+}
+
+// secondIllustration end
+
+
+
+// bg pattern section 
+#bgPatternSection {
+    margin-top: 23rem;
+
+    .wrapper {
+        width: 100%;
+        height: 39rem;
+        border-radius: 2.5rem;
+        -webkit-border-radius: 2.5rem;
+        -moz-border-radius: 2.5rem;
+        -ms-border-radius: 2.5rem;
+        -o-border-radius: 2.5rem;
+        background-color: rgba(66, 110, 219, 1);
+        background-image: url('./../images/pattern.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-top: 3rem;
+
+        h2 {
+            font-family: $rubik;
+            font-weight: 500;
+            font-size: 5rem;
+            color: #fff;
+        }
+
+        p {
+            font-family: ttcr;
+            font-size: 2rem;
+            color: #fff;
+            line-height: 1.6;
+            letter-spacing: .06rem;
+        }
+
+        a {
+            text-decoration: none;
+            font-family: $rubik;
+            font-weight: 500;
+            font-size: 1.8rem;
+            color: #fff;
+            transition: .2s;
+            -webkit-transition: .2s;
+            -moz-transition: .2s;
+            -ms-transition: .2s;
+            -o-transition: .2s;
+            border: .2rem solid #ffffff;
+            background-color: rgba(255, 255, 255, 0);
+            padding: 1.8rem 2.3rem;
+            border-radius: 3.2rem;
+            -webkit-border-radius: 3.2rem;
+            -moz-border-radius: 3.2rem;
+            -ms-border-radius: 3.2rem;
+            -o-border-radius: 3.2rem;
+            letter-spacing: .06rem;
+
+            &:hover {
+                background-color: rgb(255, 255, 255);
+                color: $brandColor;
+            }
+        }
+    }
+}
+
+// bg pattern section end
+
+
+// footer
+#footer {
+    margin-top: 13rem;
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+        .left {
+            img {
+                width: 15.3rem;
+                height: auto;
+                display: inline-block;
+            }
+
+            p {
+                margin-top: 2.5rem;
+                font-family: ttcr;
+                font-size: 2rem;
+                color: rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        .common {
+            margin-top: 1.5rem;
+
+            h3 {
+                font-family: ttcdb;
+                font-size: 2.2rem;
+                color: #000;
+                margin-bottom: 3rem;
+
+            }
+
+            a {
+                display: block;
+                margin-bottom: 2.5rem;
+                color: rgba(22, 23, 36, 1);
+                font-size: 2rem;
+                font-family: ttcm;
+                text-decoration: none;
+                transition: .2s;
+                -webkit-transition: .2s;
+                -moz-transition: .2s;
+                -ms-transition: .2s;
+                -o-transition: .2s;
+
+                &:hover {
+                    color: $brandColor;
+                }
+
+            }
+        }
+
+
+        .social {
+            margin-top: 1.5rem;
+
+            h3 {
+                font-family: ttcdb;
+                font-size: 2.2rem;
+                color: #000;
+                margin-bottom: 5.3rem;
+
+            }
+
+            .box {
+                display: flex;
+
+                a {
+                    background-color: rgb(255, 255, 255);
+                    transition: .2s;
+                    -webkit-transition: .2s;
+                    -moz-transition: .2s;
+                    -ms-transition: .2s;
+                    -o-transition: .2s;
+                    height: 3.8rem;
+                    width: 3.8rem;
+                    border-radius: 100%;
+                    -webkit-border-radius: 100%;
+                    -moz-border-radius: 100%;
+                    -ms-border-radius: 100%;
+                    -o-border-radius: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 0 .4rem 30px rgba(0, 0, 0, 0.25);
+                    margin: 0 .75rem;
+
+
+                    &:hover {
+                        background-color: rgba(70, 64, 222, 1);
+
+                        svg.fb {
+                            width: 1rem;
+
+
+                            path {
+                                fill: rgb(255, 255, 255);
+                            }
+                        }
+                    }
+                }
+
+
+                .fb {
+                    text-decoration: none;
+
+                    svg {
+                        width: 1rem;
+                        transition: .2s;
+                        -webkit-transition: .2s;
+                        -moz-transition: .2s;
+                        -ms-transition: .2s;
+                        -o-transition: .2s;
+
+                        path {
+                            transition: .2s;
+                            -webkit-transition: .2s;
+                            -moz-transition: .2s;
+                            -ms-transition: .2s;
+                            -o-transition: .2s;
+                            fill: rgba(70, 64, 222, 1);
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+// footer end
