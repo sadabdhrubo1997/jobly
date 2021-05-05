@@ -138,6 +138,7 @@ body {
             box-shadow: 0 .4rem 25px rgba(161, 187, 253, 0.05);
             animation: toDown 3s linear infinite;
             -webkit-animation: toDown 3s linear infinite;
+            animation-delay: 2s;
 
             a {
                 width: 8.6rem;
@@ -177,6 +178,8 @@ body {
             box-shadow: 0 .4rem 25px rgba(161, 187, 253, 0.05);
             animation: toUp 3s linear infinite;
             -webkit-animation: toUp 3s linear infinite;
+            animation-delay: 2s;
+
 
             a {
                 width: 8.6rem;
