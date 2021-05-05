@@ -118,6 +118,48 @@ body {
         display: flex;
         align-items: center;
         flex-direction: column;
+        position: relative;
+
+        .abs_twtr {
+            position: absolute;
+            left: 6rem;
+            top: 27rem;
+            height: 8.5rem;
+            width: 8.5rem;
+            background-color: rgba(31, 168, 245, 1);
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 5rem;
+            }
+        }
+        .abs_linkedin {
+            position: absolute;
+            right: 6rem;
+            top: 45rem;
+            height: 8.5rem;
+            width: 8.5rem;
+            background-color: rgba(27, 149, 208, 1);
+            border-radius: 100%;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            -o-border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 4rem;
+            }
+        }
 
         h1 {
             font-size: 8.5rem;
@@ -997,24 +1039,27 @@ body {
 
                     &:hover {
                         background-color: rgba(70, 64, 222, 1);
+
                         svg.fb {
                             path {
                                 fill: rgb(255, 255, 255);
                             }
                         }
 
-                        svg.insta{
-                            path{
+                        svg.insta {
+                            path {
                                 fill: #ffffff;
                             }
                         }
-                        svg.twtr{
-                            path{
+
+                        svg.twtr {
+                            path {
                                 fill: #ffffff;
                             }
                         }
-                        svg.linkedin{
-                            path{
+
+                        svg.linkedin {
+                            path {
                                 fill: #ffffff;
                             }
                         }
@@ -1023,6 +1068,7 @@ body {
 
                 .fb {
                     text-decoration: none;
+
                     svg.fb {
                         width: 1rem;
                         transition: .2s;
@@ -1030,6 +1076,7 @@ body {
                         -moz-transition: .2s;
                         -ms-transition: .2s;
                         -o-transition: .2s;
+
                         path {
                             transition: .2s;
                             -webkit-transition: .2s;
@@ -1039,6 +1086,7 @@ body {
                             fill: rgba(70, 64, 222, 1);
                         }
                     }
+
                     svg.insta {
                         width: 2rem;
                         transition: .2s;
@@ -1046,6 +1094,7 @@ body {
                         -moz-transition: .2s;
                         -ms-transition: .2s;
                         -o-transition: .2s;
+
                         path {
                             transition: .2s;
                             -webkit-transition: .2s;
@@ -1055,6 +1104,7 @@ body {
                             fill: rgba(70, 64, 222, 1);
                         }
                     }
+
                     svg.twtr {
                         width: 2rem;
                         transition: .2s;
@@ -1062,6 +1112,7 @@ body {
                         -moz-transition: .2s;
                         -ms-transition: .2s;
                         -o-transition: .2s;
+
                         path {
                             transition: .2s;
                             -webkit-transition: .2s;
@@ -1071,6 +1122,7 @@ body {
                             fill: rgba(70, 64, 222, 1);
                         }
                     }
+
                     svg.linkedin {
                         width: 2rem;
                         transition: .2s;
@@ -1078,6 +1130,7 @@ body {
                         -moz-transition: .2s;
                         -ms-transition: .2s;
                         -o-transition: .2s;
+
                         path {
                             transition: .2s;
                             -webkit-transition: .2s;
@@ -1099,7 +1152,7 @@ body {
 
 
 // copyright section
-#copyright{
+#copyright {
     margin-top: 6rem;
     padding: 3rem 0;
     border-top: .1rem solid rgba(0, 0, 0, 0.1);
@@ -1108,15 +1161,16 @@ body {
     display: flex;
     justify-content: center;
 
-    p{
+    p {
         color: rgba(22, 23, 36, 1);
         font-family: ttcr;
         font-size: 1.8rem;
     }
 
-    img{
+    img {
         display: inline-flex;
         margin: 0 1rem;
     }
 }
+
 // copyright section end
