@@ -153,9 +153,9 @@ body {
   position: absolute;
   left: 6rem;
   top: 27rem;
-  height: 8.5rem;
-  width: 8.5rem;
-  background-color: #1fa8f5;
+  height: 14.6rem;
+  width: 14.6rem;
+  background-color: white;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -170,9 +170,33 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 0 0.4rem 25px rgba(161, 187, 253, 0.05);
+          box-shadow: 0 0.4rem 25px rgba(161, 187, 253, 0.05);
+  animation: toDown 3s linear infinite;
+  -webkit-animation: toDown 3s linear infinite;
 }
 
-#header .wrapper .abs_twtr img {
+#header .wrapper .abs_twtr a {
+  width: 8.6rem;
+  height: 8.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1fa8f5;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+#header .wrapper .abs_twtr a img {
   width: 5rem;
 }
 
@@ -180,9 +204,9 @@ body {
   position: absolute;
   right: 6rem;
   top: 45rem;
-  height: 8.5rem;
-  width: 8.5rem;
-  background-color: #1b95d0;
+  height: 14.6rem;
+  width: 14.6rem;
+  background-color: white;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -197,10 +221,82 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-shadow: 0 0.4rem 25px rgba(161, 187, 253, 0.05);
+          box-shadow: 0 0.4rem 25px rgba(161, 187, 253, 0.05);
+  animation: toUp 3s linear infinite;
+  -webkit-animation: toUp 3s linear infinite;
 }
 
-#header .wrapper .abs_linkedin img {
+#header .wrapper .abs_linkedin a {
+  width: 8.6rem;
+  height: 8.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1b95d0;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+#header .wrapper .abs_linkedin a img {
   width: 4rem;
+}
+
+@-webkit-keyframes toDown {
+  0% {
+    top: 27rem;
+  }
+  50% {
+    top: 45rem;
+  }
+  100% {
+    top: 27rem;
+  }
+}
+
+@keyframes toDown {
+  0% {
+    top: 27rem;
+  }
+  50% {
+    top: 45rem;
+  }
+  100% {
+    top: 27rem;
+  }
+}
+
+@-webkit-keyframes toUp {
+  0% {
+    top: 45rem;
+  }
+  50% {
+    top: 27rem;
+  }
+  100% {
+    top: 45rem;
+  }
+}
+
+@keyframes toUp {
+  0% {
+    top: 45rem;
+  }
+  50% {
+    top: 27rem;
+  }
+  100% {
+    top: 45rem;
+  }
 }
 
 #header .wrapper h1 {

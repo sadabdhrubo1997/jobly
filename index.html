@@ -37,12 +37,16 @@
     <section id="header">
         <div class="container">
             <div class="wrapper">
-                <a href="" class="abs_twtr">
-                    <img src="./resources/icons/twtrForAnimate.svg" alt="">
-                </a>
-                <a href="" class="abs_linkedin">
-                    <img src="./resources/icons/linkedinForAnimated.svg" alt="">
-                </a>
+                <div class="abs_twtr">
+                    <a href="">
+                        <img src="./resources/icons/twtrForAnimate.svg" alt="">
+                    </a>                    
+                </div>
+                <div class="abs_linkedin">
+                    <a href="">
+                        <img src="./resources/icons/linkedinForAnimated.svg" alt="">
+                    </a>
+                </div>
                 <h1>Find the right <br>
                     job that suits your needs </h1>
                 <p>Finding a job shouldn’t be a full-time job. Tell us what you’re
@@ -445,7 +449,10 @@
 
 
     <div id="copyright">
-        <p>&copy; 2021- Made with </p>
+        <p>&copy; <script>
+            let myDate = new Date
+            document.write(myDate.getFullYear())
+        </script>- Made with </p>
         <img src="./resources/icons/heart.svg" alt="">
 
         <p>by Unbox Digital</p>

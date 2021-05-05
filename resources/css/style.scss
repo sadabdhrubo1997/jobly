@@ -124,9 +124,9 @@ body {
             position: absolute;
             left: 6rem;
             top: 27rem;
-            height: 8.5rem;
-            width: 8.5rem;
-            background-color: rgba(31, 168, 245, 1);
+            height: 14.6rem;
+            width: 14.6rem;
+            background-color: rgb(255, 255, 255);
             border-radius: 100%;
             -webkit-border-radius: 100%;
             -moz-border-radius: 100%;
@@ -135,18 +135,37 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            box-shadow: 0 .4rem 25px rgba(161, 187, 253, 0.05);
+            animation: toDown 3s linear infinite;
+            -webkit-animation: toDown 3s linear infinite;
 
-            img{
-                width: 5rem;
+            a {
+                width: 8.6rem;
+                height: 8.6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(31, 168, 245, 1);
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+
+
+                img {
+                    width: 5rem;
+                }
             }
         }
+
         .abs_linkedin {
             position: absolute;
             right: 6rem;
             top: 45rem;
-            height: 8.5rem;
-            width: 8.5rem;
-            background-color: rgba(27, 149, 208, 1);
+            height: 14.6rem;
+            width: 14.6rem;
+            background-color: rgb(255, 255, 255);
             border-radius: 100%;
             -webkit-border-radius: 100%;
             -moz-border-radius: 100%;
@@ -155,11 +174,62 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            box-shadow: 0 .4rem 25px rgba(161, 187, 253, 0.05);
+            animation: toUp 3s linear infinite;
+            -webkit-animation: toUp 3s linear infinite;
 
-            img{
-                width: 4rem;
+            a {
+                width: 8.6rem;
+                height: 8.6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(27, 149, 208, 1);
+                border-radius: 100%;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+
+                img {
+                    width: 4rem;
+                }
             }
         }
+
+        // social icon animation 
+
+        @keyframes toDown {
+            0% {
+                top: 27rem;
+            }
+
+            50% {
+                top: 45rem;
+
+            }
+
+            100% {
+                top: 27rem;
+            }
+        }
+
+        @keyframes toUp {
+            0% {
+                top: 45rem;
+            }
+
+            50% {
+                top: 27rem;
+
+            }
+
+            100% {
+                top: 45rem;
+            }
+        }
+
+        // social icon animation end
 
         h1 {
             font-size: 8.5rem;
