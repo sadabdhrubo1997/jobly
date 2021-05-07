@@ -64,7 +64,6 @@ $(document).ready(function () {
         let topPos = simpleOverViewWrapper.getBoundingClientRect().top + window.scrollY;
 
         if (window.scrollY > ((Screen_Height + simpleWrapperHeight))) {
-            console.log(topPos);
             simpleOverViewWrapper.classList.add("animate")
         }
     }
