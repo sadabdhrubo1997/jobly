@@ -521,7 +521,6 @@ body {
             justify-content: space-between;
             flex-wrap: wrap;
 
-
             .box {
                 height: 34.5rem;
                 border-radius: 1.5rem;
@@ -1106,8 +1105,8 @@ body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    box-shadow: 0 .4rem 30px rgba(0, 0, 0, 0.25);
                     margin: 0 .75rem;
+                    border: .1rem solid rgba(69, 64, 222, 0.1);
 
 
                     &:hover {
